@@ -1,0 +1,30 @@
+.flex-container {
+    padding: 10px;
+    margin: 10px;
+    list-style:none;
+    border: 3px solid silver;
+    -ms-box-orient: vertical;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    background-color: whitesmoke;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+.LinkStyle{
+    width:50px;
+}
+ul,li{
+    display: inline-block;
+    margin-left: 60px;
+   padding: 10px 20px;
+    cursor:pointer;
+    background-color:whitesmoke;
+    text-decoration: none;
+    color:#7B8585;
+    transition:0.3s;
+    font: bold 14px Arial;
+}
